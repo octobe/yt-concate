@@ -29,3 +29,4 @@ class DownloadCaptions(Step):
 
         end = time.time()
         print('took', end - start, 'seconds')
+        return data
